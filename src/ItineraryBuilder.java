@@ -1,5 +1,5 @@
 public class ItineraryBuilder implements TravelPackageBuilder{
-    private final StringBuilder sb = new StringBuilder("Official Travel Itinerary");
+    private final StringBuilder sb = new StringBuilder("Official Travel Itinerary\n");
 
     @Override
     public TravelPackageBuilder setDestination(String destination){
